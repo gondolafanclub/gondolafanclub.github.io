@@ -1,0 +1,41 @@
+body{
+    background-color: dimgrey;
+    color: ghostwhite;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1.9fr 1fr;
+}
+.header-photo{
+
+    width: 70%;
+    height: auto;
+    float: top;
+    background-color: darkgray;
+    padding: 4px;
+    border-radius: 4px;
+}
+#name-aboutMe{
+    margin: 20px;
+}
+#nav-photo{
+
+}
+nav ul>li {
+    display: inline;
+    padding:5px
+}
+.skills{
+    width: 100%;
+}
+.skills>li {
+
+    display: inline-block;
+    width:  10%;
+
+}
+.skills>li>img{
+    background-color: white;
+    padding: 4px;
+    border-radius: 3px;
+}
